@@ -1,0 +1,11 @@
+---
+application:
+  name: "background-generator"
+  project: "starter"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-background-generator"
+  routes:
+  - application_name: "background-generator"
+    paths:
+    - "/*"
